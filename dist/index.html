@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sunnylnn presents a considered collection of exceptional places.">
+  <title>Sunnylnn — A considered collection</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/Sunnylnn-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+  <header class="site-header" id="site-header">
+    <a class="brand" href="index.html" aria-label="Sunnylnn home">Sunnylnn</a>
+    <div class="header-controls">
+      <button class="language-trigger" type="button" aria-expanded="false" aria-controls="language-panel" aria-label="Choose language">EN</button>
+      <button class="menu-trigger" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="language-panel" id="language-panel" aria-hidden="true">
+    <p class="panel-label" data-i18n="language.label">Language</p>
+    <div class="language-list">
+      <button data-language="en"><span>English</span><span>EN</span></button>
+      <button data-language="zh"><span>中文</span><span>ZH</span></button>
+      <button data-language="fr"><span>Français</span><span>FR</span></button>
+      <button data-language="de"><span>Deutsch</span><span>DE</span></button>
+      <button data-language="es"><span>Español</span><span>ES</span></button>
+      <button data-language="it"><span>Italiano</span><span>IT</span></button>
+    </div>
+  </div>
+
+  <aside class="site-menu" id="site-menu" aria-hidden="true">
+    <div class="menu-inner">
+      <nav class="menu-primary" aria-label="Primary navigation">
+        <a href="listings.html" data-i18n="nav.listings">Listings</a>
+        <a href="about.html" data-i18n="nav.about">About</a>
+        <details class="more-menu">
+          <summary><span data-i18n="nav.more">More</span><span class="plus">+</span></summary>
+          <div class="more-links">
+            <a href="about.html#approach" data-i18n="nav.approach">Our approach</a>
+            <a href="listings.html#destinations" data-i18n="nav.destinations">Destinations</a>
+            <a href="about.html#partnerships" data-i18n="nav.partnerships">Partnerships</a>
+          </div>
+        </details>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="menu-meta">
+        <p class="panel-label" data-i18n="contact.eyebrow">Private enquiries</p>
+        <a href="contact.html" class="arrow-link" data-i18n="contact.cta">Contact Sunnylnn</a>
+        <div class="menu-legal">
+          <a href="legal.html#privacy" data-i18n="footer.privacy">Privacy</a>
+          <a href="legal.html#cookies" data-i18n="footer.cookies">Cookies</a>
+          <a href="legal.html#terms" data-i18n="footer.terms">Terms</a>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main id="main">
+    <section class="hero">
+      <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/listing-london.jpg" aria-hidden="true">
+        <source src="assets/hero.mp4" type="video/mp4">
+      </video>
+      <div class="hero-shade"></div>
+      <div class="sunline" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="hero.eyebrow">A private collection</p>
+        <h1>Sunnylnn</h1>
+        <p class="hero-intro" data-i18n="hero.intro">A considered collection of exceptional places.</p>
+        <a class="text-cta light" href="listings.html"><span data-i18n="hero.cta">Explore the collection</span><span aria-hidden="true">↗</span></a>
+      </div>
+      <a class="scroll-cue" href="#selected" aria-label="Scroll to selected listings"><span></span></a>
+    </section>
+
+    <section class="section listings-section" id="selected">
+      <div class="section-heading reveal">
+        <p class="eyebrow dark" data-i18n="listings.eyebrow">Selected listings</p>
+        <h2 data-i18n="listings.heading">Places with a sense of permanence.</h2>
+        <p data-i18n="listings.intro">A preview collection showing how Sunnylnn listings will be presented. Property details can be replaced when the final portfolio is ready.</p>
+      </div>
+      <div class="listing-grid">
+        <a class="listing-card reveal" href="listings.html#london">
+          <div class="listing-media"><img src="assets/listing-london.jpg" alt="Contemporary hotel interior" loading="lazy"></div>
+          <div class="listing-caption"><div><h3 data-i18n="listing.one">The London Residence</h3><p data-i18n="listing.onePlace">London, United Kingdom</p></div><span>↗</span></div>
+        </a>
+        <a class="listing-card reveal" href="listings.html#amalfi">
+          <div class="listing-media"><img src="assets/listing-amalfi.jpg" alt="Villa overlooking the Mediterranean" loading="lazy"></div>
+          <div class="listing-caption"><div><h3 data-i18n="listing.two">The Amalfi House</h3><p data-i18n="listing.twoPlace">Campania, Italy</p></div><span>↗</span></div>
+        </a>
+        <a class="listing-card reveal" href="listings.html#paris">
+          <div class="listing-media"><img src="assets/listing-paris.jpg" alt="Elegant hotel room" loading="lazy"></div>
+          <div class="listing-caption"><div><h3 data-i18n="listing.three">The Paris Suite</h3><p data-i18n="listing.threePlace">Paris, France</p></div><span>↗</span></div>
+        </a>
+      </div>
+      <div class="section-action reveal"><a class="text-cta" href="listings.html"><span data-i18n="listings.cta">View all listings</span><span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="about-band" id="about">
+      <div class="about-index reveal">S / 01</div>
+      <div class="about-copy reveal">
+        <p class="eyebrow" data-i18n="about.eyebrow">About Sunnylnn</p>
+        <h2 data-i18n="about.heading">Chosen for character, place and enduring quality.</h2>
+        <p data-i18n="about.copy">Sunnylnn presents distinctive properties and places through a calm, considered point of view. Every listing is given room to speak through architecture, atmosphere and detail.</p>
+        <a class="text-cta light" href="about.html"><span data-i18n="about.cta">Discover our story</span><span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="contact-band" id="contact">
+      <p class="eyebrow dark reveal" data-i18n="contact.eyebrow">Private enquiries</p>
+      <h2 class="reveal" data-i18n="contact.heading">Begin a conversation.</h2>
+      <a class="round-link reveal" href="contact.html"><span data-i18n="contact.cta">Contact Sunnylnn</span><span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="index.html">Sunnylnn</a>
+    <div class="footer-links"><a href="legal.html#privacy" data-i18n="footer.privacy">Privacy</a><a href="legal.html#cookies" data-i18n="footer.cookies">Cookies</a><a href="legal.html#terms" data-i18n="footer.terms">Terms</a></div>
+    <p>Sunnylnn Ltd · United Kingdom</p>
+    <p>© <span id="year"></span> Sunnylnn Ltd</p>
+  </footer>
+</body>
+</html>
