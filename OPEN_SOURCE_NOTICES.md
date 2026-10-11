@@ -1,8 +1,10 @@
 # Open-source and media notices
 
-## Font
+## Fonts
 
-Sunnylnn Regular is a renamed and modified derivative of Cormorant, originally created by the Cormorant Project Authors. It remains licensed under the SIL Open Font License 1.1. See `../brand/sunnylnn-font/OFL.txt` and `dist/assets/Sunnylnn-Regular.woff2`.
+- Newsreader is designed by Production Type and is used for editorial and display typography. Source: https://github.com/productiontype/Newsreader. It is licensed under the SIL Open Font License 1.1; see `dist/assets/OFL-Newsreader.txt`.
+- Source Sans 3 is designed by Paul D. Hunt and maintained by Adobe. It is used for navigation and interface typography. Source: https://github.com/adobe-fonts/source-sans. It is licensed under the SIL Open Font License 1.1; see `dist/assets/OFL-SourceSans3.md`.
+- The earlier Sunnylnn Regular prototype font remains included for reference. It is a renamed and modified derivative of Cormorant by the Cormorant Project Authors and remains licensed under the SIL Open Font License 1.1. See `../brand/sunnylnn-font/OFL.txt` and `dist/assets/Sunnylnn-Regular.woff2`.
 
 ## Preview media
 
