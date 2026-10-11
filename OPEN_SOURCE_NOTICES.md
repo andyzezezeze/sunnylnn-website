@@ -14,5 +14,8 @@ The preview uses media made available under the Pexels licence. Replace these it
 - London preview: “Interior of a Modern Room in a Luxury Hotel” by Quang Nguyen Vinh — https://www.pexels.com/photo/26729545/
 - Amalfi preview: “Luxury Villa by Sea” by Laura Meinhardt — https://www.pexels.com/photo/20726109/
 - Paris preview: “Interior of an Elegant Hotel Room” by Kirti Phadke — https://www.pexels.com/photo/17948132/
+- Additional local preview images: Pexels photo IDs [338504](https://www.pexels.com/photo/338504/), [271624](https://www.pexels.com/photo/271624/), [261102](https://www.pexels.com/photo/261102/), [261395](https://www.pexels.com/photo/261395/), [2507010](https://www.pexels.com/photo/2507010/), [3316924](https://www.pexels.com/photo/3316924/), [753626](https://www.pexels.com/photo/753626/), [189296](https://www.pexels.com/photo/189296/), and [2869215](https://www.pexels.com/photo/2869215/).
 
-The listing names and locations shown in this prototype are illustrative and do not represent confirmed Sunnylnn inventory.
+## Property media
+
+The eight listing cover images for Glacier, The Tower, Boxwood Gardens, Bankside Tower, Merino Gardens, Neroli, Penthouse Wharf and Queens Gate were supplied directly for the Sunnylnn project and are not open-source preview media.
