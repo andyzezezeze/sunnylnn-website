@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sunnylnn Editorial Collection homepage preview.">
+  <title>Sunnylnn — Editorial Collection Preview</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/Newsreader-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/SourceSans3-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="editorial-preview.css?v=20261027-1">
+  <script src="editorial-preview.js?v=20261027-1" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="preview-header" id="preview-header">
+    <a class="wordmark" href="editorial-preview.html" aria-label="Sunnylnn home">Sunnylnn</a>
+    <p class="header-note">Private London residences</p>
+    <div class="header-actions">
+      <button class="language-button" type="button" aria-expanded="false" aria-controls="language-menu">EN</button>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="language-menu" id="language-menu" hidden>
+    <button type="button" data-language="EN">English</button>
+    <button type="button" data-language="ZH">中文</button>
+    <button type="button" data-language="FR">Français</button>
+    <button type="button" data-language="DE">Deutsch</button>
+    <button type="button" data-language="ES">Español</button>
+    <button type="button" data-language="IT">Italiano</button>
+  </div>
+
+  <aside class="main-menu" id="main-menu" hidden>
+    <nav aria-label="Primary navigation">
+      <a href="listings.html">Residences</a>
+      <a href="#neighbourhoods">Neighbourhoods</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="menu-foot">
+      <p>London · United Kingdom</p>
+      <a href="contact.html">Make an enquiry <span>↗</span></a>
+    </div>
+  </aside>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <video autoplay muted loop playsinline preload="metadata" poster="assets/london-sunset-aerial-poster.jpg" aria-hidden="true">
+        <source src="assets/london-aerial-mobile.mp4" type="video/mp4" media="(max-width: 620px)">
+        <source src="assets/london-sunset-aerial-web.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">A considered stay in London</p>
+        <div class="hero-composition">
+          <div>
+            <h1 id="hero-title">Live beautifully,<br><em>for a while.</em></h1>
+            <p class="hero-intro">Distinctive private residences, selected for atmosphere, location and the small details that make a place feel entirely your own.</p>
+          </div>
+          <a class="line-link light" href="listings.html">Explore all residences <span>→</span></a>
+        </div>
+      </div>
+      <a class="scroll-mark" href="#introduction" aria-label="Continue to introduction"><span></span></a>
+    </section>
+
+    <section class="introduction page-section" id="introduction">
+      <p class="section-label">Sunnylnn, London</p>
+      <div class="introduction-main">
+        <h2>A small collection of homes with their own point of view.</h2>
+        <div class="principle-strip" aria-label="Sunnylnn principles">
+          <div><strong>Private</strong><span>A complete residence</span></div>
+          <div><strong>Local</strong><span>Distinct London settings</span></div>
+          <div><strong>Personal</strong><span>Thoughtfully hosted</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="residences page-section" aria-labelledby="residences-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-label">Selected residences</p>
+          <h2 id="residences-title">Places worth staying in.</h2>
+        </div>
+        <a class="line-link" href="listings.html">View all residences <span>→</span></a>
+      </div>
+
+      <div class="residence-mosaic">
+        <a class="residence-card residence-card-large" href="the-tower.html">
+          <img src="assets/listings/the-tower/cover.jpg" alt="Sunlit living room at The Tower with panoramic London views">
+          <div class="residence-shade"></div>
+          <div class="residence-caption"><p>Vauxhall · London</p><h3>The Tower</h3></div>
+        </a>
+        <a class="residence-card" href="boxwood-gardens.html">
+          <img src="assets/listings/boxwood-gardens/cover.jpg" alt="Open-plan living room at Boxwood Gardens">
+          <div class="residence-shade"></div>
+          <div class="residence-caption"><p>Tower Bridge · London</p><h3>Boxwood Gardens</h3></div>
+        </a>
+        <a class="residence-card" href="penthouse-wharf.html">
+          <img src="assets/listings/penthouse-wharf/cover.jpg" alt="Penthouse Wharf residence in London">
+          <div class="residence-shade"></div>
+          <div class="residence-caption"><p>Canary Wharf · London</p><h3>Penthouse Wharf</h3></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="neighbourhoods" id="neighbourhoods" aria-labelledby="neighbourhood-title">
+      <div class="neighbourhood-selector">
+        <p class="section-label">London by neighbourhood</p>
+        <h2 id="neighbourhood-title">Choose a<br>neighbourhood.</h2>
+        <div class="neighbourhood-list" role="list">
+          <button class="neighbourhood-button active" type="button" data-image="assets/listings/queens-gate/cover.jpg" data-name="Queens Gate" data-location="South Kensington · London" data-href="queens-gate.html" aria-pressed="true">South Kensington</button>
+          <button class="neighbourhood-button" type="button" data-image="assets/listings/the-tower/cover.jpg" data-name="The Tower" data-location="Vauxhall · London" data-href="the-tower.html" aria-pressed="false">Vauxhall</button>
+          <button class="neighbourhood-button" type="button" data-image="assets/listings/penthouse-wharf/cover.jpg" data-name="Penthouse Wharf" data-location="Canary Wharf · London" data-href="penthouse-wharf.html" aria-pressed="false">Canary Wharf</button>
+          <button class="neighbourhood-button" type="button" data-image="assets/listings/boxwood-gardens/cover.jpg" data-name="Boxwood Gardens" data-location="Tower Bridge · London" data-href="boxwood-gardens.html" aria-pressed="false">Tower Bridge</button>
+        </div>
+      </div>
+
+      <a class="neighbourhood-feature" id="neighbourhood-feature" href="queens-gate.html" aria-live="polite">
+        <img id="neighbourhood-image" src="assets/listings/queens-gate/cover.jpg" alt="Queens Gate residence in South Kensington">
+        <div class="feature-shade"></div>
+        <div class="feature-caption">
+          <p id="neighbourhood-location">South Kensington · London</p>
+          <h3 id="neighbourhood-name">Queens Gate</h3>
+          <span>View residence →</span>
+        </div>
+      </a>
+    </section>
+
+    <section class="approach page-section" aria-labelledby="approach-title">
+      <div class="approach-image">
+        <img src="assets/listings/glacier/cover.jpg" alt="Private balcony at Glacier overlooking the London skyline">
+      </div>
+      <div class="approach-copy">
+        <p class="section-label">Our approach</p>
+        <h2 id="approach-title">Quietly personal,<br>always considered.</h2>
+        <div class="approach-point">
+          <h3>Entirely private</h3>
+          <p>One complete residence, never simply a room.</p>
+        </div>
+        <div class="approach-point">
+          <h3>Distinctly local</h3>
+          <p>Homes chosen for the character of their neighbourhood.</p>
+        </div>
+        <div class="approach-point">
+          <h3>Thoughtfully hosted</h3>
+          <p>A direct, human point of contact throughout every stay.</p>
+        </div>
+        <a class="line-link" href="about.html">Discover our approach <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="guest-voices page-section" id="guest-reviews" aria-labelledby="guest-voices-title">
+      <div class="guest-voices-heading">
+        <p class="section-label">Guest voices</p>
+        <h2 id="guest-voices-title">A place remembered<br>after the stay.</h2>
+        <p class="review-note">Preview wording — replace with verified guest reviews before publication.</p>
+      </div>
+      <div class="review-layout">
+        <blockquote class="review review-featured">
+          <p>“The kind of place that lets you settle into London immediately—quiet in the morning, generous in the evening, and considered in every detail.”</p>
+          <footer><span>— Guest name</span><span>Residence · Month Year</span></footer>
+        </blockquote>
+        <div class="review-pair">
+          <blockquote class="review">
+            <p>“A calm, beautifully kept home with the city close at hand. Everything felt easy from arrival.”</p>
+            <footer><span>— Guest name</span><span>Residence · Month Year</span></footer>
+          </blockquote>
+          <blockquote class="review">
+            <p>“We came for a short stay and left wishing we had another week. The apartment gave us privacy, space and a real sense of place.”</p>
+            <footer><span>— Guest name</span><span>Residence · Month Year</span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="enquiry" aria-labelledby="enquiry-title">
+      <div>
+        <p class="section-label">Begin your stay</p>
+        <h2 id="enquiry-title">Find your place in London.</h2>
+      </div>
+      <a class="line-link light" href="contact.html">Make an enquiry <span>→</span></a>
+    </section>
+  </main>
+
+  <footer class="preview-footer">
+    <a class="footer-wordmark" href="editorial-preview.html">Sunnylnn</a>
+    <div class="footer-links"><a href="legal.html#privacy">Privacy</a><a href="legal.html#cookies">Cookies</a><a href="legal.html#terms">Terms</a></div>
+    <p>Sunnylnn Ltd · United Kingdom</p>
+    <p>Editorial homepage preview · Not published</p>
+  </footer>
+</body>
+</html>
