@@ -9,8 +9,8 @@
   <link rel="preload" href="assets/Newsreader-Variable.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/SourceSans3-Variable.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/listings/{{SLUG}}/gallery/1.jpg" as="image">
-  <link rel="stylesheet" href="styles.css?v=20261011-properties">
-  <script src="app.js?v=20261011-properties" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261030-contact-brand">
+  <script src="app.js?v=20261030-contact-brand" defer></script>
 </head>
 <body data-page="property" data-property="{{SLUG}}">
   <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
@@ -56,7 +56,10 @@
         <p class="eyebrow dark">{{LOCATION}}</p>
         <h1 id="property-name">{{NAME}}</h1>
       </div>
-      <p class="property-lede" data-i18n="residence.lede">A private one-bedroom London residence, presented through light, space and a clear sense of place.</p>
+      <div class="property-title-aside">
+        <p class="property-lede" data-i18n="residence.lede">A private one-bedroom London residence, presented through light, space and a clear sense of place.</p>
+        <a class="property-top-enquiry" href="contact.html?listing={{SLUG}}"><span data-i18n="residence.enquiryCta">Enquire about this residence</span><span aria-hidden="true">→</span></a>
+      </div>
     </section>
 
     <figure class="property-hero property-photo reveal" data-gallery-index="0">
